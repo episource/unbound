@@ -890,7 +890,7 @@ struct config_file {
    char* control_key_file;
    char* control_cert_file;
    int do_daemonize;
-   char* python_script;
+   struct config_strlist* python_script;
 };
 
 /* ************************************************************************************ *
